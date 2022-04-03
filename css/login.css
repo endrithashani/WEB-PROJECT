@@ -299,8 +299,9 @@ form{
     margin-top: 15px;
   }
   button{
+    border:none;
+    cursor:pointer;
     background-color: rgb(0, 132, 240);
-    border-radius: 5px;
     width: 100px;
     height: 30px;
     margin-top: 15px;
@@ -332,7 +333,8 @@ form{
       margin-top: 15px;
     }
     button{
-      border-radius: 5px;
+      border:none;
+      cursor:pointer;
       width: 100px;
       height: 30px;
       margin-top: 15px;
@@ -354,21 +356,15 @@ form{
   }
         
     }
-    @media screen and (max-width: 400px)  {
+    @media(max-width: 400px)  {
+      .container{
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        background-color: red;
+      }
       form{
-        margin-left: 20px;
-      }
-      .login-text{
-        font-size: 25px;
-        margin-left: 90px;
-        margin-bottom: 25px;
-        margin-top: 25px;
-      }
-      input{
-        font-size: 15px;
-        width: 250px;
-        height: 30px;
-        margin-top: 15px;
+        width: 100%;
       }
       button{
         border-radius: 5px;
@@ -378,11 +374,6 @@ form{
         margin-bottom: 25px;
         margin-left: 75px;
         font-size: 15px;
-      }
-      .form-control {
-        margin-right: 20px;
-        padding-bottom: 10px;
-        position: relative;
       }
       .right{
         margin-left: 5px;
@@ -395,14 +386,14 @@ form{
       }
   
   
-@media screen and (max-width: 520px){
+@media screen and (max-width: 1093px){
     header{
         display: none;
     }
     .topnav{
 		display: inline-block;
-        align-items: center;
-		width: 100%;
+    align-items: center;
+		width: 85%;
 	}
 	.topnav-logo{
 		display: block;
@@ -421,12 +412,5 @@ form{
     }
     .f-left{
         margin-right: 2px;
-    }
-}
-@media screen and (max-width:390px){
-    footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
