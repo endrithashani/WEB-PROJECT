@@ -30,7 +30,7 @@ if($_SESSION['email'] != 'endrithashani@gmail.com'){
     <div class="container">
         <div class="main">
             <a href="add-news.php">Add News</a>
-            <a href="edit-news.php">Edit News</a>
+            <a href="edit.php">Edit News</a>
             <a href="contact.php">Contact Us</a>
             <a href="users.php">Users</a>
         </div>

@@ -78,6 +78,9 @@ if(isset($_POST['delete'])){
       <form action="edit-news.php"  method="POST">
         <input type="hidden" name="id" value="<?php echo $rows['id']; ?>" >
         <td><input type="submit" name="edit" class="edit" value="EDIT"></td>
+    </form>
+    <form action=""  method="POST">
+        <input type="hidden" name="id" value="<?php echo $rows['id']; ?>" >
       <td><input type="submit" name="delete" class="del" value="DELETE"></td>
     </form>
     </tr>
