@@ -54,11 +54,9 @@ if(isset($_SESSION['email'])){
 </div>
 <div class="line-footer"></div>
 <div class="ff-right">
-<p>NEWSLETTER</p>
-<form>
-<input type="email" name="" class="search" placeholder="E-mail">
-<img src="images/email.png" class="email-img">
-</form>
+<p>Contact</p>
+<p>+38344555666</p>
+<p>news@thenews.com</p>
 <p>Copyright @ 2021 GM. </p>
 <p>All rights reserved. </p>
 </div>
