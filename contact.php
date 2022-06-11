@@ -85,8 +85,7 @@ if(isset($_SESSION['email'])){
     <div class="line"></div>
 <div class="footer">
 <div class="f-left">
-<a href=""><img src="images/logo.png"></a>
-<p class="f-text">TheNews.com është portal i pavarur i lajmeve në gjuhën shqipe i themeluar në vitin 2006, me bazë kryesore në Prishtinë dhe seli të dytë në Maqedoni.</p>
+<p class="f-text">Digital health, or digital healthcare, is a broad, multidisciplinary concept that includes concepts from an intersection between technology and healthcare</p>
 <div class="logot">
 <div class="logo1">
     <a href="#"><p class="l-text">in</p></a>
@@ -103,7 +102,7 @@ if(isset($_SESSION['email'])){
 <div class="ff-right">
 <p>Contact</p>
 <p>+38344555666</p>
-<p>news@thenews.com</p>
+<p>health@healthcare.com</p>
 <p>Copyright @ 2021 GM. </p>
 <p>All rights reserved. </p>
 </div>
