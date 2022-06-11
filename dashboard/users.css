@@ -91,7 +91,7 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 900px;
     height: 500px;
     border-right:1px solid rgb(214, 207, 207);
     border-bottom: 1px solid rgb(214, 207, 207);
@@ -103,10 +103,11 @@ a:hover{
 }
 .content-table {
     position: absolute;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
+    /* width: 700px; */
     min-width: 400px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
@@ -123,6 +124,10 @@ a:hover{
   .content-table th,
   .content-table td {
     padding: 12px 15px;
+  }
+  .content-table td{
+    width: 100px;
+    color: black;
   }
   
   .content-table tbody tr {

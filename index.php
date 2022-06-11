@@ -25,23 +25,20 @@ if(isset($_SESSION['email'])){
 		<!-- fade css -->
 		<div class="myslide fade">
 			<div class="txt">
-				<h1>Facebook finned</h1>
 			</div>
-			<img src="images/image1.png">
+			<img src="images/ehe.jpg">
 		</div>
 		
 		<div class="myslide fade">
 			<div class="txt">
-				<h1>Bardhi scores!</h1>
 			</div>
-			<img src="images/image2.jpg">
+			<img src="images/ehealth.jpg">
 		</div>
 		
 		<div class="myslide fade">
 			<div class="txt">
-				<h1>Lazio wins</h1>
 			</div>
-			<img src="images/image3.jpg">
+			<img src="images/cover_ehealth.png">
 		</div>
 		
 	
@@ -64,16 +61,16 @@ if(isset($_SESSION['email'])){
 
     <div class="lajme">
         <div class="lajmi">
-            <img src="images/psg.png">
-            <a href="">PSG luan për pozitën e parë ndaj Leipzigut – formacionet startuese</a>
+            <img src="images/covid.jpg">
+            <a href="">E-Healthcare Helps!</a>
         </div>
         <div class="lajmi">
-            <img src="images/keds.jpg">
-            <a href="">Hapet aplikimi për KEDS Academy, mundësi për rritjen profesionale të të rinjve</a>
+            <img src="images/fotooo.jpg">
+            <a href="">E-Healthcare is faster.</a>
         </div>
         <div class="lajmi">
-            <img src="images/paracetamoli.jpg">
-            <a href="">Paracetamoli: Gjashtë shenja të një mbidoze</a>
+            <img src="images/growth.jpg">
+            <a href="">E-Healthcare Growth</a>
         </div>
     </div>
 
@@ -81,8 +78,7 @@ if(isset($_SESSION['email'])){
     <div class="line"></div>
 <div class="footer">
 <div class="f-left">
-<a href=""><img src="images/logo.png"></a>
-<p class="f-text">TheNews.com është portal i pavarur i lajmeve në gjuhën shqipe i themeluar në vitin 2006, me bazë kryesore në Prishtinë dhe seli të dytë në Maqedoni.</p>
+<p class="f-text">Digital health, or digital healthcare, is a broad, multidisciplinary concept that includes concepts from an intersection between technology and healthcare</p>
 <div class="logot">
 <div class="logo1">
     <a href="#"><p class="l-text">in</p></a>
@@ -99,7 +95,7 @@ if(isset($_SESSION['email'])){
 <div class="ff-right">
 <p>Contact</p>
 <p>+38344555666</p>
-<p>news@thenews.com</p>
+<p>health@healthcare.com</p>
 <p>Copyright @ 2021 GM. </p>
 <p>All rights reserved. </p>
 </div>

@@ -7,8 +7,10 @@
     $emri=$_POST['emri'];
     $mbiemri=$_POST['mbiemri'];
     $email=$_POST['email'];
-    $password=$_POST['password'];
-    $c_password=$_POST['password2'];
+    $pwd=$_POST['password'];
+    $pwd2=$_POST['password2'];
+    $hash = password_hash($pwd,PASSWORD_DEFAULT); 
+    $hash2 = password_hash($pwd2,PASSWORD_DEFAULT); 
     $query=mysqli_query($conn,"SELECT * FROM users where email='$email'");
     if(mysqli_num_rows($query)>0){
       $errors['exists'] ='Email is already in use!';
@@ -27,13 +29,13 @@
         $errors['mbiemri'] ='Lasy Name must contain only letters';
     }
   }
-  if(empty($password)){
+  if(empty($pwd)){
     $errors['password'] ='Password is required!';
   }
-  if(empty($c_password)){
+  if(empty($pwd2)){
     $errors['c_password'] ='Confirm Password is required!';
   }
-  if($password!=$c_password){
+  if($pwd!=$pwd2){
     $errors['cc_password'] ='Password and Confirm Password should be the same!!';
   }
   if(empty($email)){
@@ -44,7 +46,8 @@
     }
   }if(!array_filter($errors)){
     $success['success']='User registered successfully';
-    $sql = ("INSERT INTO users (emri, mbiemri, email, password, password2) VALUES ('{$emri}',  '{$mbiemri}', '{$email}','{$password}','{$c_password}')");
+    // $sql = ("INSERT INTO users (emri, mbiemri, email, password, password2) VALUES ('{$emri}',  '{$mbiemri}', '{$email}','{$hash}','{$hash2}')");
+    $sql = ("INSERT INTO users (emri, mbiemri, email, password, password2) VALUES ('{$emri}',  '{$mbiemri}', '{$email}','{$pwd}','{$pwd2}')");
     if(mysqli_query($conn,$sql)){
 
      }else{

@@ -30,7 +30,7 @@ if(isset($_POST['login'])){
 			$logged_in_user = mysqli_fetch_assoc($queryy);
 			if ($logged_in_user['type'] == 1) {
 				$_SESSION['email'] = $email;
-				header('location: ./dashboard/dashboard.php');		  
+				header('location: ./dashboard/users.php');		  
 			}else{
         $_SESSION['email'] = $email;
 				header('location: index.php');

@@ -1,8 +1,7 @@
 <header>
-       <img src="./images/logo.png">
+<h1>E-HEALTHCARE</h1>
        <ul>
            <li><a href="index.php">Home</a></li>
-           <li><a href="news.php">News</a></li>
            <li><a href="about.php">About Us</a></li>
            <li><a href="contact.php">Contact Us</a></li>
        </ul>
@@ -10,7 +9,7 @@
        <a href="logout.php" class="login">Log out</a>
    </header>
    <div class="topnav">
-	<div class="topnav-logo"><img src="images/logo.png"></div>
+   <div class="topnav-logo"><h1>E-HEALTHCARE</h1></div>
 
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">

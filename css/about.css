@@ -126,6 +126,7 @@ footer{
 }
 .f-left{
 	display: flex;
+	margin-top: 300px;
 	width: 411px;
 	height: 380px;
 	flex-direction: column;
